@@ -14,11 +14,14 @@ body {
     min-height: 100vh;
     width: 100%;
     font-family: 'Poppins', sans-serif;
-    background-image: url(".../img/fundo.jpg"); /* 3 pontos para pegar no GitHub pages. */
-    background-color: var(--cor-azulPrincipal); /* Background azul caso a foto no fundo não pegue */
+}
+
+img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .container {
