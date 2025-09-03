@@ -4,21 +4,22 @@ body {
     min-height: 100vh;
     width: 100%;
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 .container {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
     max-width: 430px;
     width: 100%;
     background-color: #ffffffb7;
@@ -30,11 +31,11 @@ img {
     display: none;
 }
 
-#check:checked ~ .signUp{
+#check:checked~.signUp {
     display: block;
 }
 
-#check:checked ~ .login{
+#check:checked~.login {
     display: none;
 }
 
@@ -70,7 +71,7 @@ img {
     border: 1px solid var(--cor-azulPrincipal);
 }
 
-.form form input:focus::placeholder{
+.form form input:focus::placeholder {
     color: var(--cor-azulPrincipal);
 }
 
@@ -80,7 +81,7 @@ img {
     color: var(--cor-azulPrincipal);
     text-decoration: none;
     padding: 0 0 0 10px;
-} 
+}
 
 .form form a:hover {
     text-decoration: underline;
@@ -116,5 +117,20 @@ img {
 .registration label:hover {
     text-decoration: underline;
 }
+/* RESPONSIVIDADE */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 85%;
+        margin: 25px;
+    }
 
+    img {
+        display: none;
+    }
+}
 
+@media (min-width: 769px) and (max-width:1024) {
+    img {
+        height: 100vh;
+    }
+}
