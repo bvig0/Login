@@ -1,14 +1,4 @@
-/* Reset e variaveis */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root {
-    --cor-azulPrincipal: #1671da;
-    --cor-azulEscuro: #031120;
-}
+@import url("config.css");
 
 body {
     min-height: 100vh;
@@ -75,8 +65,13 @@ img {
 }
 
 .form form input:focus {
+    color: var(--cor-azulPrincipal);
     box-shadow: 0 1px 0 var(--cor-azulEscuro);
     border: 1px solid var(--cor-azulPrincipal);
+}
+
+.form form input:focus::placeholder{
+    color: var(--cor-azulPrincipal);
 }
 
 .form form a {

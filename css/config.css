@@ -1,0 +1,12 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variaveis */
+:root {
+    --cor-azulPrincipal: #1671da;
+    --cor-azulEscuro: #031120;
+}
