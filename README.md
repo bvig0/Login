@@ -14,6 +14,6 @@ O objetivo é servir como base para autenticação em sites e sistemas, com camp
 - Campos de entrada para **usuário/e-mail** e **senha**  
 - Botão de **entrar** estilizado  
 - Design responsivo para dispositivos móveis e desktops    
-- (Opcional) Link de **“Criar conta”**  
+- Link de **“Criar conta”**  
 
 ### 👨‍💻 Desenvolvido por Brian Vigo de Oliveira
