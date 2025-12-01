@@ -15,7 +15,6 @@
 
 </head>
 <body>
-        <img src="img/fundo.jpg" alt="A imagem mostra um terraço com pérgola de madeira, mesas e cadeiras externas, jardim vertical cheio de plantas e um banco com espreguiçadeira, criando um ambiente aconchegante para descanso e convivência.">
     <div class="container">
         <input type="checkbox" id="check">
 
@@ -24,9 +23,11 @@
                 <p>Login</p>
             </header>
             <form action="#">
-                <input type="text" placeholder="Digite o seu E-mail">
+                <label for="loginEmail">E-mail</label>
+                <input type="email" id="loginEmail" name="loginEmail" placeholder="Digite o seu E-mail">
 
-                <input type="password" placeholder="Digite a sua Senha">
+                <label for="loginSenha">Senha</label>
+                <input type="password" id="loginSenha" name="loginSenha" placeholder="Digite a sua Senha">
 
                 <a href="#">Esqueceu sua senha?</a>
 
@@ -44,11 +45,17 @@
                 <p>Cadastrar-se</p>
             </header>
             <form action="#">
-                <input type="text" placeholder="Digite o seu E-mail">
+                <label for="cadastroNome">Nome</label>
+                <input type="email" id="cadastroNome" name="cadastroNome" placeholder="Digite o seu E-mail">
 
-                <input type="password" placeholder="Crie a sua Senha">
+                <label for="cadastroEmail">E-mail</label>
+                <input type="email" id="cadastroEmail" name="cadastroEmail" placeholder="Digite o seu E-mail">
 
-                <input type="password" placeholder="Confirme a sua Senha">
+                <label for="cadastroCriarSenha">Senha</label>
+                <input type="password" id="cadastroCriarSenha" name="cadastroCriarSenha" placeholder="Crie a sua Senha">
+
+                <label for="cadastroConfirmarSenha">Confirmar senha</label>
+                <input type="password" id="cadastroConfirmarSenha" name="cadastroConfirmarSenha" placeholder="Confirme a sua Senha">
 
                 <input type="button" class="button" value="Cadastrar-se">
             </form>

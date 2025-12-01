@@ -3,10 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Variaveis */
 :root {
     --cor-azulPrincipal: #1671da;
-    --cor-azulEscuro: #031120;
+    --cor-azulEscuro: #05182c;
 }
